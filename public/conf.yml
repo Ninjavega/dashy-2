@@ -70,6 +70,15 @@ sections:
     description: Notes and TO Do
     tags: [hosted, personal, notes ]
     hotkey: 6
+    - name: Crypto News
+  icon: fad fa-newspaper
+  displayData:
+    rows: 2
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://cointelegraph.com/editors_pick_rss
+      apiKey: wbri5yesepy3m0ov2fjthlvsteqwtquubb48qfqf
 
 - name: News
   icon: far fa-briefcase
