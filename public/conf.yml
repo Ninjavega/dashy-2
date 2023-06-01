@@ -76,7 +76,7 @@ sections:
   items:
   - type: rss-feed
   options:
-    rssUrl: https://hotnewhiphop.com/rss.html
+    rssUrl: https://www.hotnewhiphop.com/feed
     apikey: 2pzx9tdnxqkqibqqck2rwchntpdgkjwfnesg70kv
    
 - name: Dev & Cloud
