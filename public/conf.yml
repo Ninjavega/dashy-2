@@ -79,9 +79,9 @@ sections:
   widgets:
   - type: rss-feed
     options:
-      rssUrl: https://cointelegraph.com/editors_pick_rss
+      rssUrl: https://www.hotnewhiphop.com/feed
       apiKey: wbri5yesepy3m0ov2fjthlvsteqwtquubb48qfqf
-      
+
    
 - name: Dev & Cloud
   icon: far fa-code
