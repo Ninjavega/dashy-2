@@ -71,6 +71,12 @@ sections:
     tags: [hosted, personal, notes ]
     hotkey: 6
 
+- name: News
+  icon: far fa-briefcase
+  items:
+  - type: rss-feed
+    options:
+    rssUrl: https://notes.aliciasykes.com/feed
 
 - name: Dev & Cloud
   icon: far fa-code
