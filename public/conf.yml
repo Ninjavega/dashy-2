@@ -1,8 +1,8 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Hello, Alicia
-  description: General browser startpage
+  title: Hello, Joshua
+  description: Lets Get To Work!
   logo: https://i.ibb.co/71WyyzM/little-bot-3.png
 
 # Optional app settings and configuration
@@ -26,38 +26,32 @@ sections:
   - type: weather
     options:
       apiKey: efdbade728b37086877a5e83442004db
-      city: London
-  - type: crypto-watch-list
-    options:
-      currency: GBP
-      sortBy: marketCap
-      assets:
-      - bitcoin
-      - ethereum
-      - monero
-      - solana
-      - polkadot
+      city: Houston
+ - type: rss-feed
+  options:
+    rssUrl: https://xxlmag.com/feed
+  
 
 - name: Productivity
   icon: far fa-briefcase
   items:
-  - title: ProtonMail
+  - title: Gmail
     icon: favicon
-    url: https://mail.protonmail.com/
+    url: https://gmail.com
     description: Primary email account
     tags: [hosted, personal, email, mail]
     hotkey: 1
-  - title: CTemplar
+  - title: Github
     icon: favicon
-    url: https://mail.ctemplar.com/
-    description: Secondary email account
-    tags: [hosted, personal, email, mail]
+    url: https://github.com
+    description: Repos
+    tags: [Coding, Programming, Repos, Web]
     hotkey: 2
-  - title: AnonAddy
+  - title: BitWarden
     icon: favicon
-    url: https://app.anonaddy.com/
-    description: Mail alias forwarder
-    tags: [hosted, personal, forwarder, aliases, email]
+    url: https://bitwarden.com
+    description: Password Manager
+    tags: [Passwords, Manager, Bookmarks]
     hotkey: 3
     statusCheckAcceptCodes: '401'
   - title: LessPass
@@ -66,36 +60,19 @@ sections:
     description: Deterministic password generator
     tags: [hosted, personal, password, generate, deterministic]
     hotkey: 4
-  - title: EteSync
+  - title: Figma
     icon: favicon
-    url: https://pim.etesync.com/
-    description: Calendar + Contacts, CalDAV sync
-    tags: [hosted, personal, caldav, calendar, contacts, tasks, planning]
+    url: https://figma.com
+    description: Prototypeing 
+    tags: [Prototype]
     hotkey: 5
-  - title: Tasks
-    icon: https://i.ibb.co/v4jznK0/todo-list.png
-    url: https://pim.etesync.com/pim/tasks
-    description: Todo list and tasks from CalDAV
-    tags: [hosted, personal, caldav, tasks, planning]
-    hotkey: 6
-  - title: Tresorit
+  - title: Notion
     icon: favicon
-    url: https://web.tresorit.com/
-    description: Off-site encrypted file sync + backup
-    tags: [hosted, personal, files, backup, sync, storage ]
-    hotkey: 7
-  - title: StandardNotes
-    icon: favicon
-    url: https://app.standardnotes.com/
-    description: Notes, and my second brain
+    url: https://notion.so
+    description: Notes and TO Do
     tags: [hosted, personal, notes ]
-    hotkey: 8
-  - title: 1Password
-    icon: favicon
-    url: https://my.1password.com/
-    description: Password Manager
-    tags: [hosted, personal, passwords ]
-    hotkey: 9
+    hotkey: 6
+
 
 - name: Dev & Cloud
   icon: far fa-code
