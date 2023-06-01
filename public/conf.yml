@@ -75,9 +75,9 @@ sections:
   icon: far fa-briefcase
   items:
   - type: rss-feed
-    options:
-    rssUrl: https://notes.aliciasykes.com/feed
-
+  options:
+    rssUrl: https://hotnewhiphop.com/rss.html
+   
 - name: Dev & Cloud
   icon: far fa-code
   items:
