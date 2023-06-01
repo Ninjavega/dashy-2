@@ -45,3 +45,15 @@ sections:
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
   
+sections:
+- name: This is a test
+items:
+- title: Hello
+  description: This is the descrip
+  url: https://google.com
+  target: newtab
+- title: World
+  description: Heres another!
+  url: https://twitch.tv
+  target: newtab
+  
